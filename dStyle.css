@@ -1,0 +1,143 @@
+ 
+ @media screen and (min-width: 1400px) {
+    .row{
+      max-width: 100%;
+      padding-left: 20px;
+      align-items: center;
+     }
+
+     #card1{
+      width: 100%;
+     }
+
+     #card1 .card-body canvas {
+      height: 50px;
+     }
+    
+    #card2{
+      width: 100%;
+     }
+
+    
+    #card2 canvas {
+      max-width: 100%;
+      width: 90.8%
+      
+    }
+  
+    #card3{
+      width: 100%;
+    }
+  
+    #card3 .card-body h5{
+      font-size: 17.5px;
+    }
+  
+    #card4 {
+      width: 100%;
+    }
+
+    #card4 canvas {
+      max-width: 100%;
+      width: 100%
+    }
+
+    .chartsFirst{
+      display: flex;
+    }
+
+    .card-body h5{
+      font-size: 20px;
+      text-align: center;
+     }
+
+     .allCharts{
+      position: relative;
+      display:grid;
+    
+     }
+
+     .card-body h5{
+      font-size: 20px;
+      text-align: inline-block  ;
+     }
+  
+     .cityTittle{
+      margin-top: 100px;
+      margin-left: 15px;
+     }
+  
+     h1{
+      color: black;
+     }
+  }
+
+
+  @media screen and (max-width: 1366px) {
+    .row{
+      max-width: 100%;
+      padding-left: 20px;
+      align-items: center;
+     }
+
+     #card1{
+      width: 100%;
+     }
+    
+    #card2{
+      width: 100%;
+     }
+  
+    #card2 canvas {
+    max-width: 100%;
+    width: 94.8%  
+    }
+
+    #card3{
+      width: 100%;
+    }
+  
+    #card3 .card-body h5{
+      font-size: 17.5px;
+    }
+  
+    #card4 {
+      width: 100%;
+    }
+
+    #card4 canvas {
+    max-width: 100%;
+    width: 100%
+    }
+    .chartsFirst{
+      display: flex;
+    }
+
+    .card-body h5{
+      font-size: 20px;
+      text-align: center;
+     }
+
+     .allCharts{
+      position: relative;
+      display:inline;
+      max-width: 100%;
+    
+     }
+
+     .card-body h5{
+      font-size: 20px;
+      text-align: inline-block  ;
+     }
+  
+     .cityTittle{
+      margin-top: 100px;
+      margin-left: 15px;
+     }
+  
+     h1{
+      color: black;
+     }
+  }
+
+
